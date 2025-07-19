@@ -46,10 +46,10 @@ $boost=3,site=whatsapp.com
 *tenga*$boost=3
 *preste*$boost=3
 
-$boost=3,inpage=zoo
-$boost=3,inpage=zoofilia
-$boost=3,inpage=mexico
-$boost=3,inpage=cdmx
+inpage=zoo$boost=3
+inpage=zoofilia$boost=3
+inpage=mexico$boost=3
+inpage=cdmx$boost=3
 
 zoo$inpage
 mexico$inpage
