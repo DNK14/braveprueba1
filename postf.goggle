@@ -5,8 +5,8 @@
 
 $discard
 $downrank,site=google.com
-$downrank,site=youtube.com
-$downrank,site=tiktok.com
+$downrank=9,site=youtube.com
+$downrank=10,site=tiktok.com
 
 ! sitios:
 
