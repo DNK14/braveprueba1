@@ -46,6 +46,34 @@ $boost=3,site=whatsapp.com
 *tenga*$boost=3
 *preste*$boost=3
 
+$boost=3,incontent
+$boost=3,incontent
+$boost=3,incontent
+$boost=3,incontent
+$boost=3,incontent
+$boost=3,incontent
+$boost=3,incontent
+$boost=3,incontent
+
+*zoo*$incontent
+*mexico*$incontent
+*edomex*$incontent
+*mex*$incontent
+*edo*$incontent
+*ecatepec*$incontent
+*cdmx*$incontent
+*zoofilia*$incontent
+*z00*$incontent
+*ganado*$incontent
+*venta*$incontent
+*renta*$incontent
+*con*$incontent
+*tendra*$incontent
+*rente*$incontent
+*iniciar*$incontent
+*tenga*$incontent
+*preste*$incontent
+
 ! descartar
 
 $discard,inurl=gob.mx
@@ -53,6 +81,11 @@ $discard,inurl=.mx
 $discard,inurl=*.gob.*
 $discard,inurl=*.cdmx.*
 $discard,inurl=*.mx.*
+$discard,gob.mx
+$discard,.mx
+$discard,*.gob.*
+$discard,*.cdmx.*
+$discard,*.mx*
 ! No prioridad
 $downrank=1,site=youtube.com
 $downrank=2,site=tiktok.com
