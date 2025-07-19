@@ -47,27 +47,6 @@ $boost=3,site=whatsapp.com
 *tenga*$boost=3
 *preste*$boost=3
 
-! xd
-
-zoo$incontent
-mexico$inpage
-edomex$inpage
-mex$inpage
-edo$inpage
-ecatepec$inpage
-cdmx$inpage
-zoofilia$inpage
-z00$inpage
-ganado$inpage
-venta$inpage
-renta$inpage
-con$inpage
-tendra$inpage
-rente$inpage
-iniciar$inpage
-tenga$inpage
-preste$inpage
-
 ! descartar
 
 $discard,inurl=gob.mx
