@@ -9,15 +9,15 @@ $downrank,site=google.com
 ! sitios:
 $boost=9,site=facebook.com
 $boost=9,site=m.facebook.com
-$boost=9,facebook.com*
-$boost=9,facebook.com*
+m.facebook.com*$boost=9
+facebook.com*$boost=9
+*facebook.com*$boost=9
 $boost=1,site=x.com
 $boost=1,site=instagram.com
 $boost=3,site=telegram.com
 
 ! cosas que se priorizan
 
-*facebook.com*$boost=9
 */posts/*$boost=3
 */groups/*$boost=3
 */photo/*$boost=3
