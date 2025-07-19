@@ -9,17 +9,11 @@ $downrank,site=google.com
 ! sitios:
 $boost=9,site=facebook.com
 $boost=9,site=m.facebook.com
+$boost=9,site=facebook.com*
+$boost=9,site=m.facebook.com*
 $boost=1,site=twitter.com
-$boost=3,site=instagram.com
+$boost=1,site=instagram.com
 $boost=3,site=telegram.com
-$boost=3,site=tumblr.com
-$boost=3,site=linkedin.com
-$boost=3,site=discord.com
-$boost=3,site=odysee.com
-$boost=3,site=vimeo.com
-$boost=3,site=quora.com
-$boost=3,site=snapchat.com
-$boost=3,site=whatsapp.com
 
 ! cosas que se priorizan
 
@@ -52,10 +46,10 @@ $boost=3,site=whatsapp.com
 
 ! descartar
 
-^.gob.^$discard
-^.cdmx.^$discard
-^.mx^$discard
-^gob.mx^$discard
+.gob.$discard
+.cdmx.$discard
+.mx$discard
+gob.mx$discard
 *zoologico*$discard
 *bio*$discard
 *zoológico*$discard
