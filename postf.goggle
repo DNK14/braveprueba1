@@ -53,11 +53,7 @@ $discard,inurl=.mx
 $discard,inurl=*.gob.*
 $discard,inurl=*.cdmx.*
 $discard,inurl=*.mx.*
-$discard,^gob.mx^
-$discard,^mx^
-$discard,^gob^
-$discard,^cdmx^
-$discard,^mx^
+gob.mx$discard
 
 ! No prioridad
 
