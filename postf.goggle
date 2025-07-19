@@ -46,6 +46,13 @@ $boost=3,site=whatsapp.com
 *tenga*$boost=3
 *preste*$boost=3
 
+! descartar
+
+$discard,inurl=gob.mx
+$discard,inurl=.mx
+$discard,inurl=*.gob.*
+$discard,inurl=*.cdmx.*
+$discard,inurl=*.mx.*
 ! No prioridad
 $downrank=1,site=youtube.com
 $downrank=2,site=tiktok.com
