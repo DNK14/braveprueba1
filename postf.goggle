@@ -46,29 +46,29 @@ $boost=3,site=whatsapp.com
 *tenga*$boost=3
 *preste*$boost=3
 
-$boost=3,incontent=zoo
-$boost=3,incontent=zoofilia
-$boost=3,incontent=mexico
-$boost=3,incontent=cdmx
+$boost=3,inpage=zoo
+$boost=3,inpage=zoofilia
+$boost=3,inpage=mexico
+$boost=3,inpage=cdmx
 
-zoo$incontent
-mexico$incontent
-edomex$incontent
-mex$incontent
-edo$incontent
-ecatepec$incontent
-cdmx$incontent
-zoofilia*$incontent
-z00$incontent
-ganado$incontent
-venta$incontent
-renta$incontent
-con$incontent
-tendra$incontent
-rente$incontent
-iniciar$incontent
-tenga$incontent
-preste$incontent
+zoo$inpage
+mexico$inpage
+edomex$inpage
+mex$inpage
+edo$inpage
+ecatepec$inpage
+cdmx$inpage
+zoofilia$inpage
+z00$inpage
+ganado$inpage
+venta$inpage
+renta$inpage
+con$inpage
+tendra$inpage
+rente$inpage
+iniciar$inpage
+tenga$inpage
+preste$inpage
 
 ! descartar
 
