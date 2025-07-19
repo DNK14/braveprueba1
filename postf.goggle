@@ -7,9 +7,8 @@ $discard
 $downrank,site=google.com
 
 ! sitios:
-$boost=3,site=facebook.com
+$boost=5,site=facebook.com
 $boost=3,site=twitter.com
-$boost=3,site=youtube.com
 $boost=3,site=instagram.com
 $boost=3,site=telegram.com
 $boost=3,site=tumblr.com
@@ -24,6 +23,9 @@ $boost=3,site=whatsapp.com
 
 ! cosas que se priorizan
 
+/posts/$boost=3
+/groups/$boost=3
+/photo/$boost=3
 *zoo*$boost=5
 *mexico*$boost=6
 *zoofilia*$boost=5
@@ -32,5 +34,8 @@ $boost=3,site=whatsapp.com
 *renta*$boost=5
 *preste*$boost=5
 *zoofilia*$boost=3
-*post*$boost=5
+
+! No prioridad
+$downrank=1,site=youtube.com
+$downrank=2,site=tiktok.com
 
