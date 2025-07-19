@@ -5,12 +5,14 @@
 
 $discard
 $downrank,site=google.com
+$downrank,site=youtube.com
+$downrank,site=tiktok.com
 
 ! sitios:
+
 $boost=9,site=facebook.com
 $boost=9,site=m.facebook.com
 *m.facebook.com*$boost=9
-*facebook.com*$boost=9
 *facebook.com*$boost=9
 $boost=1,site=x.com
 $boost=1,site=instagram.com
@@ -20,7 +22,7 @@ $boost=3,site=telegram.com
 
 */posts/*$boost=3
 */groups/*$boost=3
-*/photo/*$boost=3
+*photo*$boost=3
 zoo$boost=7
 zoofilia$boost=7
 animales$boost=7
@@ -59,9 +61,7 @@ gob.mx$discard
 *motel*$discard
 *hotel*$discard
 *chapultepec*$discard
-
-! No prioridad
-
-$downrank=9,site=youtube.com
-$downrank=9,site=tiktok.com
-
+*noticias*$discard
+*universal*$discard
+*chilango*$discard
+*infobae*$discard
