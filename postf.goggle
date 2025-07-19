@@ -1,0 +1,36 @@
+! name: post facebook
+! description: post facebook 
+! public: false
+! author: Stretw
+
+$discard
+$downrank,site=google.com
+
+! sitios:
+$boost=3,site=facebook.com
+$boost=3,site=twitter.com
+$boost=3,site=youtube.com
+$boost=3,site=instagram.com
+$boost=3,site=telegram.com
+$boost=3,site=tumblr.com
+$boost=3,site=linkedin.com
+$boost=3,site=reddit.com
+$boost=3,site=discord.com
+$boost=3,site=odysee.com
+$boost=3,site=vimeo.com
+$boost=3,site=quora.com
+$boost=3,site=snapchat.com
+$boost=3,site=whatsapp.com
+
+! cosas que se priorizan
+
+*zoo*$boost=5
+*mexico*$boost=6
+*zoofilia*$boost=5
+*ganado*$boost=5
+*venta*$boost=5
+*renta*$boost=5
+*preste*$boost=5
+*zoofilia*$boost=3
+*post*$boost=5
+
