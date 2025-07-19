@@ -5,11 +5,10 @@
 
 $discard
 $downrank,site=google.com
-$inpage
-$incontent
+
 ! sitios:
-$boost=9,site=facebook.com
-$boost=9,site=m.facebook.com
+$boost=9,site=facebook.com$incontent
+$boost=9,site=m.facebook.com$inpage
 $boost=1,site=twitter.com
 $boost=3,site=instagram.com
 $boost=3,site=telegram.com
