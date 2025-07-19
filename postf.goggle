@@ -46,33 +46,29 @@ $boost=3,site=whatsapp.com
 *tenga*$boost=3
 *preste*$boost=3
 
-$boost=3,incontent
-$boost=3,incontent
-$boost=3,incontent
-$boost=3,incontent
-$boost=3,incontent
-$boost=3,incontent
-$boost=3,incontent
-$boost=3,incontent
+$boost=3,incontent=zoo
+$boost=3,incontent=zoofilia
+$boost=3,incontent=mexico
+$boost=3,incontent=cdmx
 
-*zoo*$incontent
-*mexico*$incontent
-*edomex*$incontent
-*mex*$incontent
-*edo*$incontent
-*ecatepec*$incontent
-*cdmx*$incontent
-*zoofilia*$incontent
-*z00*$incontent
-*ganado*$incontent
-*venta*$incontent
-*renta*$incontent
-*con*$incontent
-*tendra*$incontent
-*rente*$incontent
-*iniciar*$incontent
-*tenga*$incontent
-*preste*$incontent
+zoo$incontent
+mexico$incontent
+edomex$incontent
+mex$incontent
+edo$incontent
+ecatepec$incontent
+cdmx$incontent
+zoofilia*$incontent
+z00$incontent
+ganado$incontent
+venta$incontent
+renta$incontent
+con$incontent
+tendra$incontent
+rente$incontent
+iniciar$incontent
+tenga$incontent
+preste$incontent
 
 ! descartar
 
@@ -83,10 +79,12 @@ $discard,inurl=*.cdmx.*
 $discard,inurl=*.mx.*
 $discard,gob.mx
 $discard,.mx
-$discard,*.gob.*
-$discard,*.cdmx.*
-$discard,*.mx*
+$discard,.gob.
+$discard,.cdmx.
+$discard,.mx
+
 ! No prioridad
+
 $downrank=1,site=youtube.com
 $downrank=2,site=tiktok.com
 *zoologico*$downrank=9
