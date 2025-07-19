@@ -7,14 +7,13 @@ $discard
 $downrank,site=google.com
 
 ! sitios:
-$boost=5,site=facebook.com
-$boost=5,site=m.facebook.com
-$boost=3,site=twitter.com
+$boost=9,site=facebook.com
+$boost=9,site=m.facebook.com
+$boost=1,site=twitter.com
 $boost=3,site=instagram.com
 $boost=3,site=telegram.com
 $boost=3,site=tumblr.com
 $boost=3,site=linkedin.com
-$boost=3,site=reddit.com
 $boost=3,site=discord.com
 $boost=3,site=odysee.com
 $boost=3,site=vimeo.com
@@ -50,5 +49,5 @@ $boost=3,site=whatsapp.com
 ! No prioridad
 $downrank=1,site=youtube.com
 $downrank=2,site=tiktok.com
-*zoologico*$downrank=5
+*zoologico*$downrank=9
 
