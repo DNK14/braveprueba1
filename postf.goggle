@@ -5,7 +5,8 @@
 
 $discard
 $downrank,site=google.com
-
+$inpage
+$incontent
 ! sitios:
 $boost=9,site=facebook.com
 $boost=9,site=m.facebook.com
@@ -46,12 +47,7 @@ $boost=3,site=whatsapp.com
 *tenga*$boost=3
 *preste*$boost=3
 
-inpage=zoo$boost=3
-inpage=zoofilia$boost=3
-inpage=mexico$boost=3
-inpage=cdmx$boost=3
-
-zoo$inpage
+zoo$incontent
 mexico$inpage
 edomex$inpage
 mex$inpage
